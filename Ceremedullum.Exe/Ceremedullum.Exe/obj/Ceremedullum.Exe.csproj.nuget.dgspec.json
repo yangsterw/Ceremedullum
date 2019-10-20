@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj": {}
+    "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj": {
+    "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj",
+        "projectUniqueName": "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj",
         "projectName": "Ceremedullum.Exe",
-        "projectPath": "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj",
+        "projectPath": "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj",
         "packagesPath": "C:\\Users\\duper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum.Exe\\Ceremedullum.Exe\\obj\\",
+        "outputPath": "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
