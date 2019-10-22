@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Ceremedullum.Exe.Views.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ceremedullum.Exe.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FF4EA8F3">
+
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock x:ConnectionId='2' x:Name="LogoText" HorizontalAlignment="Center" Margin="0,211,0,0" Text="Cere-med-ullum" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="78" FontWeight="Bold"/>
+        <TextBox x:ConnectionId='3' x:Name="LoginInputBox" HorizontalAlignment="Left" Margin="512,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Height="55" Width="513" FontSize="32" PlaceholderText="Username"/>
+        <PasswordBox x:ConnectionId='4' x:Name="PasswordInputBox" HorizontalAlignment="Left" Margin="512,545,0,0" VerticalAlignment="Top" Height="55" Width="513" InputScope="Password" PlaceholderText="Password" FontSize="32"/>
+        <TextBlock FontFamily="Segoe UI Symbol" FontSize="40" Margin="447,475,1008,479" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <CompositeTransform ScaleX="1"/>
+            </TextBlock.RenderTransform>&#57661;</TextBlock>
+        <TextBlock FontFamily="Segoe UI Symbol" FontSize="40" Margin="447,547,1008,407" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <CompositeTransform ScaleX="1"/>
+            </TextBlock.RenderTransform>&#57746;</TextBlock>
+        <TextBlock x:ConnectionId='5' x:Name="AppDescText" HorizontalAlignment="Left" Margin="451,320,0,0" Text="Where AI meets medical diagnosis..." TextWrapping="Wrap" VerticalAlignment="Top" FontStyle="Italic" FontSize="38">
+            <TextBlock.FocusVisualPrimaryBrush>
+                <ImageBrush/>
+            </TextBlock.FocusVisualPrimaryBrush>
+        </TextBlock>
+        <Button x:ConnectionId='6' x:Name="LoginBtn" Content="Login" Margin="0,657,0,0" VerticalAlignment="Top" Height="48" Width="94" HorizontalAlignment="Center" FontSize="24" FontWeight="Bold"/>
+        <HyperlinkButton Content="Forgot your password?" Margin="876,605,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+
