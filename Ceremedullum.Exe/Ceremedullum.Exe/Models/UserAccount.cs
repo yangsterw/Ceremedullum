@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ceremedullum.Exe.Models
 {
-    public sealed class UserAccount
+    public sealed class UserAccount : IUserAccount
     {
         private static readonly Lazy<UserAccount>
             Lazy =
@@ -15,20 +15,27 @@ namespace Ceremedullum.Exe.Models
 
         public static UserAccount Instance => Lazy.Value;
 
-        private string UserName { get; set; }
-        private string Password { get; set; }
-        private string Token { get; set; }
+        public int id { get; set; }
+        public string firstName { get; set; } 
+        public string lastName { get; set; }
+        public string userName { get; set; }
+        public string password { get; set; }
+        public string token { get; set; }
+
+        public int doctorId { get; set; }
+
 
         public UserAccount()
         {
 
         }
 
-        public void SetUser(string username, string password)
+        public void SetUser(string username, string passwd, string tken)
         {
-           this.UserName = username;
-           this.Password = password;
+            this.userName = username;
+            this.password = passwd;
+            this.token = tken;
         }
     }
 }
-}
+

@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Ceremedullum.Exe.Models;
+using Ceremedullum.Exe.Services;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -30,6 +31,8 @@ namespace Ceremedullum.Exe.Views
 
         private void LoginBtn_Click(object sender, RoutedEventArgs e)
         {
+            var api = new ApiServices();
+            var token = api.RequestToken(LoginInputBox.Text, PasswordInputBox.Password);
         }
     }
 }

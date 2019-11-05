@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -14,7 +15,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Ceremedullum.Exe.Configurations;
 using Ceremedullum.Exe.Views;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Ceremedullum.Exe
 {
@@ -27,8 +30,10 @@ namespace Ceremedullum.Exe
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
+
         public App()
         {
+            //ServiceProvider.
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }

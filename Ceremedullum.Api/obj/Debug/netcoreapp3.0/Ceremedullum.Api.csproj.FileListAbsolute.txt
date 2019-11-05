@@ -10,7 +10,6 @@ C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Api\bin\Debug\ne
 C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Api\obj\Debug\netcoreapp3.0\Ceremedullum.Api.csprojAssemblyReference.cache
 C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Api\obj\Debug\netcoreapp3.0\staticwebassets\Ceremedullum.Api.StaticWebAssets.Manifest.cache
 C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Api\obj\Debug\netcoreapp3.0\staticwebassets\Ceremedullum.Api.StaticWebAssets.xml
-C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Api\obj\Debug\netcoreapp3.0\Ceremedullum.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Api\obj\Debug\netcoreapp3.0\Ceremedullum.Api.AssemblyInfoInputs.cache
 C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Api\obj\Debug\netcoreapp3.0\Ceremedullum.Api.AssemblyInfo.cs
 C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Api\obj\Debug\netcoreapp3.0\Ceremedullum.Api.RazorTargetAssemblyInfo.cache
