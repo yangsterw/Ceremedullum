@@ -11,6 +11,6 @@ namespace Ceremedullum.Api.Models
         public DateTime VisitDate { get; set; }
         public string VisitInfo { get; set; }
         public string PrimaryReasonForVisit { get; set; }
-        public string Disease { get; set; }
+        public List<string> Diseases { get; set; }
     }
 }

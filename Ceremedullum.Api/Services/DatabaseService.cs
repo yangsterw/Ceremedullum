@@ -9,9 +9,9 @@ namespace Ceremedullum.Api.Services
 {
     public class DatabaseService
     {
-        private static readonly string EndpointUri = "https://ceremedullumdb.documents.azure.com:443/";
+        private static readonly string EndpointUri = "";
         // The primary key for the Azure Cosmos account.
-        private static readonly string PrimaryKey = "s0kJS1s2SgUfGSQ8vPB8loT3kmbmFkVPX1kqjbakKbuwdnUbKcyWR9grrnzsi6llnS9Ec3dWZwSr4a9WwyGFmA==";
+        private static readonly string PrimaryKey = "==";
 
         // The Cosmos client instance
         private CosmosClient cosmosClient;
