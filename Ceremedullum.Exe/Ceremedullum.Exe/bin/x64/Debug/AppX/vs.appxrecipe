@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-31T23:31:30.903</Modified>
+      <Modified>2019-11-25T05:34:46.460</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Ceremedullum.Exe.exe">
       <PackagePath>entrypoint\Ceremedullum.Exe.exe</PackagePath>
-      <Modified>2019-10-31T23:31:29.289</Modified>
+      <Modified>2019-11-25T05:34:45.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.bcl.asyncinterfaces\1.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -146,19 +146,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Ceremedullum.Exe.xr.xml">
       <PackagePath>Ceremedullum.Exe.xr.xml</PackagePath>
-      <Modified>2019-10-31T23:28:54.515</Modified>
+      <Modified>2019-11-25T05:25:25.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-10-31T23:11:49.132</Modified>
+      <Modified>2019-11-25T05:34:44.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\LoginPage.xbf">
       <PackagePath>Views\LoginPage.xbf</PackagePath>
-      <Modified>2019-10-31T23:31:28.366</Modified>
+      <Modified>2019-11-25T05:34:44.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2019-10-31T23:11:49.135</Modified>
+      <Modified>2019-11-25T05:34:44.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPageContentFrame\SearchPatient.xbf">
+      <PackagePath>Views\MainPageContentFrame\SearchPatient.xbf</PackagePath>
+      <Modified>2019-11-25T05:34:44.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -166,11 +170,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-10-31T23:11:52.468</Modified>
+      <Modified>2019-11-25T04:45:48.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Core\Ceremedullum.Exe.exe">
       <PackagePath>Ceremedullum.Exe.exe</PackagePath>
-      <Modified>2019-10-31T23:31:30.845</Modified>
+      <Modified>2019-11-25T05:34:46.422</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

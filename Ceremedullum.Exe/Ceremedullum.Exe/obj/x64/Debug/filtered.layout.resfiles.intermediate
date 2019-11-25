@@ -11,4 +11,5 @@ App.xbf
 Ceremedullum.Exe.xr.xml
 Views\LoginPage.xbf
 Views\MainPage.xbf
+Views\MainPageContentFrame\SearchPatient.xbf
 Properties\Default.rd.xml

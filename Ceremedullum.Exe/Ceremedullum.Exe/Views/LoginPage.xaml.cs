@@ -24,6 +24,8 @@ namespace Ceremedullum.Exe.Views
     /// </summary>
     public sealed partial class LoginPage : Page
     {
+        Frame rootFrame = Window.Current.Content as Frame;
+
         public LoginPage()
         {
             this.InitializeComponent();
@@ -33,6 +35,10 @@ namespace Ceremedullum.Exe.Views
         {
             var api = new ApiServices();
             var token = api.RequestToken(LoginInputBox.Text, PasswordInputBox.Password);
+            if (token != null)
+            {
+                rootFrame.Navigate(typeof(MainPage));
+            }
         }
     }
 }

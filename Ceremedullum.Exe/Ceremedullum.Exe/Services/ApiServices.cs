@@ -53,5 +53,16 @@ namespace Ceremedullum.Exe.Services
                 Debug.WriteLine(ex);
             }
         }
+
+        public async Task RequestPatientInfo(string patientId)
+        {
+            try
+            {
+            }
+            catch(Exception e)
+            {
+
+            }
+        }
     }
 }

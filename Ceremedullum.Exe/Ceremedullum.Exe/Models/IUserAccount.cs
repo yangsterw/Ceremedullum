@@ -8,7 +8,7 @@ namespace Ceremedullum.Exe.Models
 {
     public interface IUserAccount
     {
-        int id {  get; }
+        int id {  get; set; }
         string firstName { get; set; }
         string lastName {  get; set; }
         string userName {  get; set; }
