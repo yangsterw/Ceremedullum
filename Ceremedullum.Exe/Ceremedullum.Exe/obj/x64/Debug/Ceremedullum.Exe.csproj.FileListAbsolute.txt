@@ -111,3 +111,8 @@ C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum
 C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Core\AppxManifest.xml
 C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Core\Ceremedullum.Exe.exe
 C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Ceremedullum.Exe.build.appxrecipe
+C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPageContentFrame\SearchDiseases.xbf
+C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\obj\x64\Debug\Views\MainPageContentFrame\SearchDiseases.g.i.cs
+C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\obj\x64\Debug\Views\MainPageContentFrame\SearchDiseases.g.cs
+C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\obj\x64\Debug\Views\MainPageContentFrame\SearchDiseases.xaml
+C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\obj\x64\Debug\Views\MainPageContentFrame\SearchDiseases.xbf

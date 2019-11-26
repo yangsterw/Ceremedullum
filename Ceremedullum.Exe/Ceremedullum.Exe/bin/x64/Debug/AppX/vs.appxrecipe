@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-26T03:13:40.789</Modified>
+      <Modified>2019-11-26T10:04:21.132</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Ceremedullum.Exe.exe">
       <PackagePath>entrypoint\Ceremedullum.Exe.exe</PackagePath>
-      <Modified>2019-11-26T02:59:24.633</Modified>
+      <Modified>2019-11-26T10:04:18.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -202,27 +202,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Ceremedullum.Exe.xr.xml">
       <PackagePath>Ceremedullum.Exe.xr.xml</PackagePath>
-      <Modified>2019-11-26T01:00:34.280</Modified>
+      <Modified>2019-11-26T09:22:30.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-11-26T02:59:24.158</Modified>
+      <Modified>2019-11-26T09:22:30.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\LoginPage.xbf">
       <PackagePath>Views\LoginPage.xbf</PackagePath>
-      <Modified>2019-11-26T02:59:24.159</Modified>
+      <Modified>2019-11-26T09:22:30.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2019-11-26T02:59:24.160</Modified>
+      <Modified>2019-11-26T09:22:30.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPageContentFrame\SearchDiseases.xbf">
+      <PackagePath>Views\MainPageContentFrame\SearchDiseases.xbf</PackagePath>
+      <Modified>2019-11-26T10:04:18.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPageContentFrame\SearchPatient.xbf">
       <PackagePath>Views\MainPageContentFrame\SearchPatient.xbf</PackagePath>
-      <Modified>2019-11-26T02:59:24.160</Modified>
+      <Modified>2019-11-26T09:22:30.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\PatientInfoView\PatientInfoPage.xbf">
       <PackagePath>Views\PatientInfoView\PatientInfoPage.xbf</PackagePath>
-      <Modified>2019-11-26T02:59:24.161</Modified>
+      <Modified>2019-11-26T09:22:30.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -238,11 +242,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-11-26T03:13:37.591</Modified>
+      <Modified>2019-11-26T08:56:25.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Core\Ceremedullum.Exe.exe">
       <PackagePath>Ceremedullum.Exe.exe</PackagePath>
-      <Modified>2019-11-26T03:13:40.754</Modified>
+      <Modified>2019-11-26T10:04:21.121</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

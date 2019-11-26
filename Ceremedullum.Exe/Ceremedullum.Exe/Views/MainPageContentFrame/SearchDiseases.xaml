@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Ceremedullum.Exe.Views.MainPageContentFrame.SearchDiseases"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ceremedullum.Exe.Views.MainPageContentFrame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox x:Name="DiseaseSearchInput" CharacterSpacing="150" Header="Disease you are looking for:"  HorizontalAlignment="Left" Margin="88,88,0,0" PlaceholderText="Disease" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="28" Height="95" Width="494"/>
+        <StackPanel Margin="663,91,672,785">
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Sex:" Style="{ThemeResource BaseTextBlockStyle}" FontSize="24"/>
+                <RadioButton Content="Male" Tag="Male" GroupName="Sex" FontSize="18" />
+                <RadioButton Content="Female" Tag="Female" GroupName="Sex" FontSize="18" />
+            </StackPanel>
+        </StackPanel>
+        <controls:RangeSelector x:Name="RangeSelectorControl" 
+                                Minimum="0" 
+                                Maximum="100"
+                                StepFrequency="1" Margin="803,123,44,0" Height="92">
+        </controls:RangeSelector>
+        <TextBlock x:Name="AgeRangeSelectorLabel" HorizontalAlignment="Left" Margin="828,88,0,0" FontSize="24" Text="Age Range:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="SearchDiseaseBtn" Content="Search" FontSize="32" Margin="663,891,0,0" VerticalAlignment="Top"/>
+
+
+
+    </Grid>
+</Page>

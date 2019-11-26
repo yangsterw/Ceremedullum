@@ -16,7 +16,7 @@ using Ceremedullum.Exe.Views.MainPageContentFrame;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace Ceremedullum.Exe
+namespace Ceremedullum.Exe.Views
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -75,13 +75,16 @@ namespace Ceremedullum.Exe
                     break;
 
                 case "searchDisease":
-                    //ContentFrame.Navigate(typeof(SearchDisease));
+                    ContentFrame.Navigate(typeof(SearchDiseases));
                     break;
 
                 case "history":
                     //ContentFrame.Navigate(typeof(SearchHistory));
                     break;
 
+                case "logout":
+                   rootFrame.Navigate(typeof(LoginPage));
+                    break;
                 case "settings":
                     //ContentFrame.Navigate(typeof(settings));
                     break;

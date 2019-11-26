@@ -163,6 +163,9 @@
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPageContentFrame\SearchDiseases.xbf">
+      <PackagePath>Views\MainPageContentFrame\SearchDiseases.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPageContentFrame\SearchPatient.xbf">
       <PackagePath>Views\MainPageContentFrame\SearchPatient.xbf</PackagePath>
     </AppxPackagedFile>

@@ -30,6 +30,7 @@
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="FontStyle" />
+      <RootProperty Name="Style" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
     </RootType>
@@ -43,6 +44,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="CharacterSpacing" />
       <RootProperty Name="Header" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
@@ -94,7 +96,26 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.NavigationThemeTransition" />
-    <RootType FullName="Ceremedullum.Exe.MainPage" />
+    <RootType FullName="Ceremedullum.Exe.Views.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Orientation" />
+    </RootType>
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector">
+      <RootProperty Name="Minimum" />
+      <RootProperty Name="Maximum" />
+      <RootProperty Name="StepFrequency" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Tag" />
+      <RootProperty Name="GroupName" />
+      <RootProperty Name="FontSize" />
+    </RootType>
+    <RootType FullName="Ceremedullum.Exe.Views.MainPageContentFrame.SearchDiseases" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Ceremedullum.Exe.Views.MainPageContentFrame.SearchPatient" />
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
