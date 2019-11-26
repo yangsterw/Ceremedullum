@@ -8,11 +8,9 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBlock Text="Lookup Patient:" FontFamily="Arial"
-                   FontSize="36" FontStyle="Normal" TextWrapping="WrapWholeWords"
-                   CharacterSpacing="200" Foreground="CornflowerBlue" HorizontalAlignment="Left" VerticalAlignment="Top" Height="126" Width="399" Margin="539,173,0,0" />
-        <TextBox Header="Enter Patient ID:" PlaceholderText="Patient id" Margin="501,343,573,565" CharacterSpacing="80" FontSize="18" />
-        <Button Style="{StaticResource AccentButtonStyle}" Content="Lookup Patient Data" Margin="641,468,0,0" VerticalAlignment="Top" Click="SearchPatientData_Btn" />
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Button Style="{StaticResource AccentButtonStyle}" Content="Lookup Patient Data" Margin="562,636,0,0" VerticalAlignment="Top" Click="SearchPatientData_Btn" FontSize="18" />
+        <TextBox x:Name="PatientIdInput" PlaceholderText="Patient ID" Header="Enter Patient ID:" HorizontalAlignment="Left" Margin="370,398,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="102" Width="566" FontSize="28" />
+        <TextBlock x:Name="PatientSearchTitle" HorizontalAlignment="Left" Margin="534,211,0,0" Text="Search Patient" TextWrapping="Wrap" VerticalAlignment="Top" Height="76" Width="334" FontSize="38"/>
     </Grid>
 </Page>

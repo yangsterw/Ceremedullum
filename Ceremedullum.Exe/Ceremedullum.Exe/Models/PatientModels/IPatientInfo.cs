@@ -13,6 +13,6 @@ namespace Ceremedullum.Exe.Models.PatientModels
         DateTime BirthYear {  get; set; }
         IList<IVisitInfo> PatientHistory { get; set; }
         IList<IDiseases> Diseases { get; set; }
-        IDictionary<IVisitInfo, IDiseases> visitMap { get; set; }
+        IDictionary<IVisitInfo, IDiseases> VisitMap { get; set; }
     }
 }

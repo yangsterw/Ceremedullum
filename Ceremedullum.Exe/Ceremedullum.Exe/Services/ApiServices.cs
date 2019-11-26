@@ -43,8 +43,7 @@ namespace Ceremedullum.Exe.Services
                 };
 
                 var jsonUser = JsonSerializer.Deserialize<UserAccount>(httpResponseBody, options);
-                
-                
+
                 Debug.WriteLine(httpResponseBody);
             }
             catch (Exception ex)

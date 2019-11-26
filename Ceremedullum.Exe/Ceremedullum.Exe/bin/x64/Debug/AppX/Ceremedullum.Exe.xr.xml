@@ -30,8 +30,6 @@
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="FontStyle" />
-      <RootProperty Name="CharacterSpacing" />
-      <RootProperty Name="Foreground" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
     </RootType>
@@ -46,7 +44,6 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="Header" />
-      <RootProperty Name="CharacterSpacing" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
       <RootProperty Name="HorizontalAlignment" />
@@ -100,5 +97,13 @@
     <RootType FullName="Ceremedullum.Exe.MainPage" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Ceremedullum.Exe.Views.MainPageContentFrame.SearchPatient" />
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="AutoGenerateColumns" />
+      <RootProperty Name="Columns" />
+    </RootType>
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridTextColumn" />
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridComboBoxColumn" />
+    <RootType FullName="Ceremedullum.Exe.Views.PatientInfoView.PatientInfoPage" />
   </Roots.RootTypes>
 </Roots>
