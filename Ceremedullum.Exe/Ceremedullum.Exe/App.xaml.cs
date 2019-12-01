@@ -17,6 +17,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Ceremedullum.Exe.Configurations;
 using Ceremedullum.Exe.Views;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Ceremedullum.Exe
@@ -30,12 +31,31 @@ namespace Ceremedullum.Exe
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
-
+        /// 
         public App()
         {
             //ServiceProvider.
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            var services = new ServiceCollection();
+
+            var configurationBuilder = new ConfigurationBuilder();
+            
+            configurationBuilder.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+
+            var configuration = configurationBuilder.Build();
+
+            services.AddSingleton<IConfiguration>(configuration);
+
+            // build service provider
+            var provider = services.BuildServiceProvider();
+            var myConfig = provider.GetService<IConfiguration>();
+        }
+
+        private void ConfigureServices(IServiceCollection services)
+        {
+
         }
 
         /// <summary>

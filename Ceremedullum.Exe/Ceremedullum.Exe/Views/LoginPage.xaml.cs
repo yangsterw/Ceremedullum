@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -31,13 +32,24 @@ namespace Ceremedullum.Exe.Views
             this.InitializeComponent();
         }
 
-        private void LoginBtn_Click(object sender, RoutedEventArgs e)
+        private async void LoginBtn_Click(object sender, RoutedEventArgs e)
         {
             var api = new ApiServices();
-            var token = api.RequestToken(LoginInputBox.Text, PasswordInputBox.Password);
-            if (token != null)
+            var user = await api.RequestToken(LoginInputBox.Text, PasswordInputBox.Password);
+            if (user.token != null)
             {
                 _rootFrame.Navigate(typeof(MainPage));
+            }
+            else
+            {
+                ContentDialog noWifiDialog = new ContentDialog()
+                {
+                    Title = "Incorrect Password",
+                    Content = "Please try again, the password is incorrect.",
+                    CloseButtonText = "Ok"
+                };
+
+                await noWifiDialog.ShowAsync();
             }
         }
     }

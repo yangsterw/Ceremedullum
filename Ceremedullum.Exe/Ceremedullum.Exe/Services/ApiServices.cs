@@ -14,8 +14,11 @@ namespace Ceremedullum.Exe.Services
     {
         private static Uri _requestUri = new Uri("http://localhost:22860/");
 
-        public async Task RequestToken(string username, string password)
+        public async Task<UserAccount> RequestToken(string username, string password)
         {
+            // TODO: Abstract this to a interface later
+            var user = new UserAccount();
+
             try
             {
                 // Construct the HttpClient and Uri. This endpoint is for test purposes only.
@@ -24,7 +27,7 @@ namespace Ceremedullum.Exe.Services
 
                 // Construct the JSON to post.
                 HttpStringContent content = new HttpStringContent(
-                    "{ \"username\": \"test\"," + "\"password\":\"test\" }",
+                    $"{{ \"username\": \"{username}\", \"password\": \"{password}\" }}",
                     UnicodeEncoding.Utf8,
                     "application/json");
 
@@ -43,25 +46,20 @@ namespace Ceremedullum.Exe.Services
                 };
 
                 var jsonUser = JsonSerializer.Deserialize<UserAccount>(httpResponseBody, options);
+                
+                user = jsonUser;
 
-                Debug.WriteLine(httpResponseBody);
+                return user;
             }
+
             catch (Exception ex)
             {
                 // Write out any exceptions.
                 Debug.WriteLine(ex);
             }
-        }
-
-        public async Task RequestPatientInfo(string patientId)
-        {
-            try
-            {
-            }
-            catch(Exception e)
-            {
-
-            }
+            
+            return user;
+            
         }
     }
 }

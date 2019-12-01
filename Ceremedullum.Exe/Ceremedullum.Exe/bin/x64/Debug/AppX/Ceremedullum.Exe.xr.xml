@@ -109,6 +109,11 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
     </RootType>
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="AutoGenerateColumns" />
+      <RootProperty Name="Columns" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
       <RootProperty Name="Content" />
       <RootProperty Name="Tag" />
@@ -118,11 +123,6 @@
     <RootType FullName="Ceremedullum.Exe.Views.MainPageContentFrame.SearchDiseases" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Ceremedullum.Exe.Views.MainPageContentFrame.SearchPatient" />
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="AutoGenerateColumns" />
-      <RootProperty Name="Columns" />
-    </RootType>
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridTextColumn" />
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridComboBoxColumn" />
     <RootType FullName="Ceremedullum.Exe.Views.PatientInfoView.PatientInfoPage" />

@@ -26,6 +26,10 @@
         <TextBlock x:ConnectionId='4' x:Name="AgeRangeSelectorLabel" HorizontalAlignment="Left" Margin="828,88,0,0" FontSize="24" Text="Age Range:" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Button x:ConnectionId='5' x:Name="SearchDiseaseBtn" Content="Search" FontSize="32" Margin="663,891,0,0" VerticalAlignment="Top"/>
 
+        <controls:DataGrid x:ConnectionId='6' x:Name="dataGrid">
+
+        </controls:DataGrid>
+
     </Grid>
 </Page>
 

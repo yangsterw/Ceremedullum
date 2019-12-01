@@ -38,9 +38,10 @@ namespace Ceremedullum.Exe.Views
             // set the initial SelectedItem 
             foreach (NavigationViewItemBase item in NavView.MenuItems)
             {
-                if (item is NavigationViewItem && item.Tag.ToString() == "home")
+                if (item is NavigationViewItem && item.Tag.ToString() == "searchPatient")
                 {
                     NavView.SelectedItem = item;
+                    ContentFrame.Navigate(typeof(SearchPatient));
                     break;
                 }
             }
@@ -87,6 +88,9 @@ namespace Ceremedullum.Exe.Views
                     break;
                 case "settings":
                     //ContentFrame.Navigate(typeof(settings));
+                    break;
+                default:
+                    ContentFrame.Navigate(typeof(SearchPatient));
                     break;
             }
         }
