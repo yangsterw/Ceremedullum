@@ -8,6 +8,6 @@ namespace Ceremedullum.Api.Models
     public class Diseases
     {
         public int DiseaseId { get; set; }
-        public string Disease { get; set; }
+        public string DiseaseName { get; set; }
     }
 }

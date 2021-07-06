@@ -8,6 +8,7 @@ namespace Ceremedullum.Exe.Models.PatientModels
 {
     public interface IVisitInfo
     {
+        int VisitId { get; set; }
         int PatientId { get; set; }
         DateTime VisitDate { get; set; }
         DateTime VisitTime { get; set; }

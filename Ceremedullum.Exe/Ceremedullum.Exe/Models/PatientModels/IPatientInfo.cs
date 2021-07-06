@@ -10,7 +10,7 @@ namespace Ceremedullum.Exe.Models.PatientModels
     {
         int PatientId { get; set; }
         char Sex { get; set; }
-        DateTime BirthYear {  get; set; }
+        int BirthYear {  get; set; }
         IList<IVisitInfo> PatientHistory { get; set; }
         IList<IDiseases> Diseases { get; set; }
         IDictionary<IVisitInfo, IDiseases> VisitMap { get; set; }

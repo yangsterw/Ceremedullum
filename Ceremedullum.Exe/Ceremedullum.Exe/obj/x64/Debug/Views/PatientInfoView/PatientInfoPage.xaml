@@ -10,15 +10,21 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBox x:ConnectionId='2' x:Name="PatientId" Header="Patient ID:" HorizontalAlignment="Left" Margin="40,41,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="238" FontSize="18"/>
-        <TextBox x:ConnectionId='3' x:Name="Sex" Header="Sex:" HorizontalAlignment="Left" Margin="278,41,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="238" FontSize="18"/>
-        <TextBox x:ConnectionId='4' x:Name="BirthYear" Header="Age:" HorizontalAlignment="Left" Margin="512,41,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="238" FontSize="18"/>
-        <controls:DataGrid x:ConnectionId='5' Margin="40,144,266,42" x:Name="PatientRecord" AutoGenerateColumns="True">
-            <controls:DataGrid.Columns>
-                <controls:DataGridTextColumn/>
-                <controls:DataGridComboBoxColumn/>
-            </controls:DataGrid.Columns>
-        </controls:DataGrid>
+        <TextBox x:ConnectionId='2' x:Name="PatientId" Header="Patient ID:" HorizontalAlignment="Left" Margin="40,41,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="238" FontSize="18"/>
+        <TextBox x:ConnectionId='3' x:Name="Sex" Header="Sex:" HorizontalAlignment="Left" Margin="278,41,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="238" FontSize="18"/>
+        <TextBox x:ConnectionId='4' x:Name="BirthYear" Header="Birth:" HorizontalAlignment="Left" Margin="512,41,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="238" FontSize="18"/>
+        <ToggleSwitch Header="Allow Edit:" OffContent="Disabled" OnContent="Enabled" IsOn="False" HorizontalAlignment="Left" Margin="800, -820,0,0" />
+        <controls:DataGrid x:ConnectionId='5' x:Name="PtHistGrid"
+                           IsReadOnly="True"
+                           CanUserSortColumns="True"
+                                                        
+                           BorderThickness="2"
+                           BorderBrush="DarkSlateGray"
+                           AlternatingRowBackground="DarkGray"
+                           GridLinesVisibility="All"
+                           AutoGenerateColumns="True"
+                           SelectionMode="Single" Margin="40,154,36,46"                                        />
+        <Button x:ConnectionId='6' x:Name="SendFileBtn" Content="Send X-Ray for analysis" Margin="772,117,0,0" VerticalAlignment="Top"                           Width="182"/>
     </Grid>
 </Page>
 

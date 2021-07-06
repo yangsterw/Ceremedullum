@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Ceremedullum.Exe.Models;
 
 namespace Ceremedullum.Exe.Services
 {
     public interface IApiServices
     {
-        Task RequestToken(string username, string password);
+        Task<UserAccount> RequestToken(string username, string password);
     }
 }

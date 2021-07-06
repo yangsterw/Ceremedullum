@@ -7,12 +7,14 @@ using System.Threading.Tasks;
 
 namespace Ceremedullum.Exe.Models.PatientModels
 {
-    class VisitInfo : IVisitInfo
+    public class VisitInfo : IVisitInfo
     {
+        public int VisitId { get; set; }
         public int PatientId { get; set; }
         public DateTime VisitDate { get; set; }
         public DateTime VisitTime { get; set; }
         public string VisitDescription { get; set; }
+        
         public IList<Diseases> Diseases { get; set; }
     }
 }

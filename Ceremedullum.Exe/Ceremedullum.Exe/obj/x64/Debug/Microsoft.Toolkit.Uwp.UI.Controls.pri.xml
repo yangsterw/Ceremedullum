@@ -447,6 +447,38 @@
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
+				<ResourceMapSubtree name="TokenizingTextBox">
+					<NamedResource name="TokenizingTextBox.xaml" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls/Files/Microsoft.Toolkit.Uwp.UI.Controls/TokenizingTextBox/TokenizingTextBox.xaml">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls\TokenizingTextBox\TokenizingTextBox.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TokenizingTextBox.xbf" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls/Files/Microsoft.Toolkit.Uwp.UI.Controls/TokenizingTextBox/TokenizingTextBox.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TokenizingTextBoxItem.AutoSuggestBox.xaml" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls/Files/Microsoft.Toolkit.Uwp.UI.Controls/TokenizingTextBox/TokenizingTextBoxItem.AutoSuggestBox.xaml">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls\TokenizingTextBox\TokenizingTextBoxItem.AutoSuggestBox.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TokenizingTextBoxItem.AutoSuggestBox.xbf" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls/Files/Microsoft.Toolkit.Uwp.UI.Controls/TokenizingTextBox/TokenizingTextBoxItem.AutoSuggestBox.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TokenizingTextBoxItem.Token.xaml" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls/Files/Microsoft.Toolkit.Uwp.UI.Controls/TokenizingTextBox/TokenizingTextBoxItem.Token.xaml">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls\TokenizingTextBox\TokenizingTextBoxItem.Token.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TokenizingTextBoxItem.Token.xbf" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls/Files/Microsoft.Toolkit.Uwp.UI.Controls/TokenizingTextBox/TokenizingTextBoxItem.Token.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 		</ResourceMapSubtree>
 		<ResourceMapSubtree name="Microsoft.Toolkit.Uwp.UI.Controls">
@@ -569,6 +601,16 @@
 				<NamedResource name="WindowsCommunityToolkit_InAppNotification_NameProperty" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls/Microsoft.Toolkit.Uwp.UI.Controls/Resources/WindowsCommunityToolkit_InAppNotification_NameProperty">
 					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
 						<Value>Notification</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WindowsCommunityToolkit_TokenizingTextBoxItem_MenuFlyout_Remove" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls/Microsoft.Toolkit.Uwp.UI.Controls/Resources/WindowsCommunityToolkit_TokenizingTextBoxItem_MenuFlyout_Remove">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Remove</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WindowsCommunityToolkit_TokenizingTextBox_MenuFlyout_SelectAll" uri="ms-resource://Microsoft.Toolkit.Uwp.UI.Controls/Microsoft.Toolkit.Uwp.UI.Controls/Resources/WindowsCommunityToolkit_TokenizingTextBox_MenuFlyout_SelectAll">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Select All</Value>
 					</Candidate>
 				</NamedResource>
 				<ResourceMapSubtree name="WindowsCommunityToolkit_TabView_CloseButton">
