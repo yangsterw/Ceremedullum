@@ -22,7 +22,7 @@ namespace Ceremedullum.Api.Services
         // users hardcoded for simplicity, store in a db with hashed passwords in production applications
         private readonly List<User> _users = new List<User>
         { 
-            new User { Id = 1, FirstName = "Test", LastName = "User", UserName = "test", Password = "test", DoctorId = 12345 } 
+            new User { Id = 1, FirstName = "Yang", LastName = "Wang", UserName = "yang@ceremedullum.com", Password = "pass", DoctorId = 1 } 
         };
 
         private readonly AppSettings _appSettings;
@@ -52,6 +52,7 @@ namespace Ceremedullum.Api.Services
                 Expires = DateTime.UtcNow.AddDays(7),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
+
             var token = tokenHandler.CreateToken(tokenDescriptor);
             user.Token = tokenHandler.WriteToken(token);
 

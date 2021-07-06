@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-UA2HD6P</Machine>
-    <WindowsUser>lin</WindowsUser>
+    <Machine>DESKTOP-O7SBKDU</Machine>
+    <WindowsUser>yang</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>b31b84d4-96bb-4546-bc34-b8c30bd96753</PackageIdentityName>
     <PackageIdentityPublisher>CN=lin</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>449DEE0F838DD6943A7EA6F7D18C17057562645610EFBECEFE2C3D3D97A6C07C</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>DE5D8D9F039ABF2A632F2B6FD952A4D2DED3E43F18797E4CD89FED56579FF2CF</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b31b84d4-96bb-4546-bc34-b8c30bd96753_1.0.0.0_x64__f5vgcp4em8nbc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b31b84d4-96bb-4546-bc34-b8c30bd96753_f5vgcp4em8nbc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>b31b84d4-96bb-4546-bc34-b8c30bd96753</RegisteredPackageID>
@@ -27,315 +27,315 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-01T01:06:12.691</Modified>
+      <Modified>2021-03-19T16:22:15.304</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Ceremedullum.Exe.exe">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Ceremedullum.Exe.exe">
       <PackagePath>entrypoint\Ceremedullum.Exe.exe</PackagePath>
-      <Modified>2019-12-01T01:06:10.478</Modified>
+      <Modified>2021-03-19T16:22:07.764</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
       <Modified>2018-10-06T06:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\colorcode.uwp\2.0.6\lib\uap10.0\ColorCode.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\colorcode.uwp\2.0.6\lib\uap10.0\ColorCode.UWP.dll">
       <PackagePath>ColorCode.UWP.dll</PackagePath>
       <Modified>2018-10-06T06:30:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.bcl.asyncinterfaces\1.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.bcl.asyncinterfaces\5.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
-      <Modified>2019-09-13T09:27:48.000</Modified>
+      <Modified>2020-10-20T01:40:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.extensions.configuration\3.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.extensions.configuration\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
-      <Modified>2019-11-01T03:47:52.000</Modified>
+      <Modified>2020-10-20T01:48:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.extensions.configuration.abstractions\3.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.extensions.configuration.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
-      <Modified>2019-11-01T03:47:48.000</Modified>
+      <Modified>2020-10-20T01:48:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.extensions.configuration.fileextensions\3.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.FileExtensions.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.extensions.configuration.fileextensions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.FileExtensions.dll">
       <PackagePath>Microsoft.Extensions.Configuration.FileExtensions.dll</PackagePath>
-      <Modified>2019-11-01T03:49:00.000</Modified>
+      <Modified>2020-10-20T01:50:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.extensions.configuration.json\3.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Json.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.extensions.configuration.json\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Json.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Json.dll</PackagePath>
-      <Modified>2019-11-01T03:49:34.000</Modified>
+      <Modified>2020-10-20T01:52:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.extensions.dependencyinjection\3.0.1\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.extensions.dependencyinjection\5.0.1\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
-      <Modified>2019-11-01T03:47:44.000</Modified>
+      <Modified>2020-11-26T09:59:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\3.0.1\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
-      <Modified>2019-11-01T03:47:38.000</Modified>
+      <Modified>2020-10-20T01:48:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.extensions.fileproviders.abstractions\3.0.1\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.extensions.fileproviders.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.FileProviders.Abstractions.dll</PackagePath>
-      <Modified>2019-11-01T03:47:54.000</Modified>
+      <Modified>2020-10-20T01:48:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.extensions.fileproviders.physical\3.0.1\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Physical.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.extensions.fileproviders.physical\5.0.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Physical.dll">
       <PackagePath>Microsoft.Extensions.FileProviders.Physical.dll</PackagePath>
-      <Modified>2019-11-01T03:48:00.000</Modified>
+      <Modified>2020-10-20T01:49:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.extensions.filesystemglobbing\3.0.1\lib\netstandard2.0\Microsoft.Extensions.FileSystemGlobbing.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.extensions.filesystemglobbing\5.0.0\lib\netstandard2.0\Microsoft.Extensions.FileSystemGlobbing.dll">
       <PackagePath>Microsoft.Extensions.FileSystemGlobbing.dll</PackagePath>
-      <Modified>2019-11-01T03:47:40.000</Modified>
+      <Modified>2020-10-20T01:48:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.extensions.primitives\3.0.1\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.extensions.primitives\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
-      <Modified>2019-11-01T03:47:24.000</Modified>
+      <Modified>2020-10-20T01:48:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.toolkit\6.0.0\lib\netstandard2.0\Microsoft.Toolkit.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.toolkit\6.1.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
       <PackagePath>Microsoft.Toolkit.dll</PackagePath>
-      <Modified>2019-11-13T10:36:00.000</Modified>
+      <Modified>2020-08-13T05:29:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.toolkit.parsers\6.0.0\lib\netstandard2.0\Microsoft.Toolkit.Parsers.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.toolkit.parsers\6.1.1\lib\netstandard2.0\Microsoft.Toolkit.Parsers.dll">
       <PackagePath>Microsoft.Toolkit.Parsers.dll</PackagePath>
-      <Modified>2019-11-13T10:36:02.000</Modified>
+      <Modified>2020-08-13T05:29:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.toolkit.uwp\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.toolkit.uwp\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
-      <Modified>2019-11-13T10:36:08.000</Modified>
+      <Modified>2020-08-13T05:29:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.toolkit.uwp.ui\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.toolkit.uwp.ui\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
-      <Modified>2019-11-13T10:36:28.000</Modified>
+      <Modified>2020-08-13T05:30:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.toolkit.uwp.ui.animations\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Animations.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.toolkit.uwp.ui.animations\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Animations.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Animations.dll</PackagePath>
-      <Modified>2019-11-13T10:36:30.000</Modified>
+      <Modified>2020-08-13T05:30:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.dll</PackagePath>
-      <Modified>2019-11-13T10:36:34.000</Modified>
+      <Modified>2020-08-13T05:30:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
-      <Modified>2019-11-13T10:36:36.000</Modified>
+      <Modified>2020-08-13T05:30:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
-      <Modified>2016-02-22T21:59:50.000</Modified>
+      <Modified>2019-04-27T08:06:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
       <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
-      <Modified>2016-02-22T21:59:50.000</Modified>
+      <Modified>2019-04-27T08:06:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2017-06-18T20:57:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2019-07-22T21:01:12.000</Modified>
+      <Modified>2021-02-05T09:15:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\system.runtime.compilerservices.unsafe\4.6.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\system.runtime.compilerservices.unsafe\5.0.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
-      <Modified>2019-09-13T09:28:42.000</Modified>
+      <Modified>2020-10-20T01:46:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\system.text.encodings.web\4.6.0\lib\netstandard2.0\System.Text.Encodings.Web.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\system.text.encodings.web\5.0.0\lib\netstandard2.0\System.Text.Encodings.Web.dll">
       <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
-      <Modified>2019-09-13T09:28:36.000</Modified>
+      <Modified>2020-10-20T01:40:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\system.text.json\4.6.0\lib\netstandard2.0\System.Text.Json.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\system.text.json\5.0.0\lib\netstandard2.0\System.Text.Json.dll">
       <PackagePath>System.Text.Json.dll</PackagePath>
-      <Modified>2019-09-13T09:28:40.000</Modified>
+      <Modified>2020-10-20T01:42:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\win2d.uwp\1.24.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\win2d.uwp\1.25.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
-      <Modified>2019-10-26T06:29:30.000</Modified>
+      <Modified>2020-04-03T02:46:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\win2d.uwp\1.24.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\win2d.uwp\1.25.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
-      <Modified>2019-10-26T06:27:44.000</Modified>
+      <Modified>2020-04-03T02:44:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-19T01:36:56.000</Modified>
+      <Modified>2019-03-19T02:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\houseloginbkground.jpg">
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml</PackagePath>
+      <Modified>2020-08-13T05:07:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yang\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
+      <Modified>2020-08-13T05:03:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\houseloginbkground.jpg">
       <PackagePath>Assets\houseloginbkground.jpg</PackagePath>
       <Modified>2019-10-31T22:46:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-10-20T08:05:01.913</Modified>
+      <Modified>2019-10-20T08:05:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-10-01T21:18:06.997</Modified>
+      <Modified>2019-10-01T21:18:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-01T21:18:06.997</Modified>
+      <Modified>2019-10-01T21:18:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-01T21:18:06.997</Modified>
+      <Modified>2019-10-01T21:18:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-01T21:18:06.997</Modified>
+      <Modified>2019-10-01T21:18:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-01T21:18:06.997</Modified>
+      <Modified>2019-10-01T21:18:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-01T21:18:06.997</Modified>
+      <Modified>2019-10-01T21:18:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-01T21:18:06.997</Modified>
+      <Modified>2019-10-01T21:18:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Ceremedullum.Exe.xr.xml">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Ceremedullum.Exe.xr.xml">
       <PackagePath>Ceremedullum.Exe.xr.xml</PackagePath>
-      <Modified>2019-11-26T22:32:50.993</Modified>
+      <Modified>2019-12-01T03:22:39.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-01T00:54:34.406</Modified>
+      <Modified>2021-03-19T16:22:07.634</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\LoginPage.xbf">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\LoginPage.xbf">
       <PackagePath>Views\LoginPage.xbf</PackagePath>
-      <Modified>2019-12-01T00:54:34.407</Modified>
+      <Modified>2021-03-19T16:22:07.634</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2019-12-01T00:54:34.407</Modified>
+      <Modified>2021-03-19T16:22:07.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPageContentFrame\SearchDiseases.xbf">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPageContentFrame\SearchDiseases.xbf">
       <PackagePath>Views\MainPageContentFrame\SearchDiseases.xbf</PackagePath>
-      <Modified>2019-12-01T00:54:34.408</Modified>
+      <Modified>2021-03-19T16:22:07.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPageContentFrame\SearchPatient.xbf">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\MainPageContentFrame\SearchPatient.xbf">
       <PackagePath>Views\MainPageContentFrame\SearchPatient.xbf</PackagePath>
-      <Modified>2019-12-01T00:54:34.409</Modified>
+      <Modified>2021-03-19T16:22:07.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\PatientInfoView\PatientInfoPage.xbf">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Views\PatientInfoView\PatientInfoPage.xbf">
       <PackagePath>Views\PatientInfoView\PatientInfoPage.xbf</PackagePath>
-      <Modified>2019-12-01T00:54:34.410</Modified>
+      <Modified>2021-03-19T16:22:07.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-19T00:33:42.000</Modified>
+      <Modified>2019-03-19T01:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml</PackagePath>
-      <Modified>2019-11-13T10:32:36.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
-      <Modified>2019-11-13T10:32:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-11-26T22:32:52.990</Modified>
+      <Modified>2021-03-19T16:22:12.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Core\Ceremedullum.Exe.exe">
+    <AppxPackagedFile Include="C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\bin\x64\Debug\Core\Ceremedullum.Exe.exe">
       <PackagePath>Ceremedullum.Exe.exe</PackagePath>
-      <Modified>2019-12-01T01:06:12.640</Modified>
+      <Modified>2021-03-19T16:22:15.240</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\yang\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
-      <Version>2.2.27902.3</Version>
+      <Version>2.2.29713.2</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\yang\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\yang\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
-      <Version>2.2.27902.3</Version>
+      <Version>2.2.29713.2</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\yang\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\yang\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
-      <Version>2.2.27902.3</Version>
+      <Version>2.2.29713.2</Version>
       <Architecture>arm</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\yang\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\yang\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
-      <Version>2.2.27909.0</Version>
+      <Version>2.2.29301.2</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\yang\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\yang\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
-      <Version>2.2.27909.0</Version>
+      <Version>2.2.29301.2</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\yang\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\yang\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
-      <Version>2.2.27909.0</Version>
+      <Version>2.2.29301.2</Version>
       <Architecture>arm</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\yang\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27323.0</Version>
+      <Version>14.0.29231.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27323.0</Version>
+      <Version>14.0.29231.0</Version>
       <Architecture>ARM64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27323.0</Version>
+      <Version>14.0.29231.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27323.0</Version>
+      <Version>14.0.29231.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

@@ -1,36 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Api\\Ceremedullum.Api.csproj": {}
+    "C:\\Users\\yang\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Api\\Ceremedullum.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Api\\Ceremedullum.Api.csproj": {
+    "C:\\Users\\yang\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Api\\Ceremedullum.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Api\\Ceremedullum.Api.csproj",
+        "projectUniqueName": "C:\\Users\\yang\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Api\\Ceremedullum.Api.csproj",
         "projectName": "Ceremedullum.Api",
-        "projectPath": "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Api\\Ceremedullum.Api.csproj",
-        "packagesPath": "C:\\Users\\duper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Api\\obj\\",
+        "projectPath": "C:\\Users\\yang\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Api\\Ceremedullum.Api.csproj",
+        "packagesPath": "C:\\Users\\yang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yang\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\duper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,9 +43,32 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Azure.DocumentDB.Core": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
             },
@@ -70,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

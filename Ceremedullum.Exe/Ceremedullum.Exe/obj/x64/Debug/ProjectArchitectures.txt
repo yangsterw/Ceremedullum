@@ -1,1 +1,1 @@
-C:\Users\duper\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Ceremedullum.Exe.csproj;x64
+C:\Users\yang\Dropbox\Senior Project\Ceremedullum\Ceremedullum.Exe\Ceremedullum.Exe\Ceremedullum.Exe.csproj;x64

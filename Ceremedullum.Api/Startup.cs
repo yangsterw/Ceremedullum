@@ -1,20 +1,23 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System.Text;
+using Ceremedullum.Api.Helpers;
+using Ceremedullum.Api.Services;
+using Ceremedullum.Api.Services.CosmosDbService;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Ceremedullum.Api.Helpers;
-using Ceremedullum.Api.Services;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 
-namespace WebApi
+namespace Ceremedullum.Api
 {
     public class Startup
     {
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            var cosmosDb = new CosmosDbService();
+            cosmosDb.SetupDatabase().Wait();
         }
 
         public IConfiguration Configuration { get; }

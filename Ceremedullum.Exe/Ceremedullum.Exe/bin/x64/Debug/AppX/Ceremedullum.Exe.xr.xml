@@ -110,9 +110,17 @@
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
-      <RootProperty Name="Margin" />
+      <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="CanUserSortColumns" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="AlternatingRowBackground" />
+      <RootProperty Name="GridLinesVisibility" />
       <RootProperty Name="AutoGenerateColumns" />
-      <RootProperty Name="Columns" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="Margin" />
+      <RootEvent Name="Sorting" />
+      <RootEvent Name="DoubleTapped" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
       <RootProperty Name="Content" />
@@ -123,8 +131,14 @@
     <RootType FullName="Ceremedullum.Exe.Views.MainPageContentFrame.SearchDiseases" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Ceremedullum.Exe.Views.MainPageContentFrame.SearchPatient" />
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridTextColumn" />
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridComboBoxColumn" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
+      <RootProperty Name="Header" />
+      <RootProperty Name="OffContent" />
+      <RootProperty Name="OnContent" />
+      <RootProperty Name="IsOn" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+    </RootType>
     <RootType FullName="Ceremedullum.Exe.Views.PatientInfoView.PatientInfoPage" />
   </Roots.RootTypes>
 </Roots>

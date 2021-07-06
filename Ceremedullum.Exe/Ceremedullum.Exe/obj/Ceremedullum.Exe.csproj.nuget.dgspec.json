@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj": {}
+    "C:\\Users\\yang\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj": {
+    "C:\\Users\\yang\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj",
+        "projectUniqueName": "C:\\Users\\yang\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj",
         "projectName": "Ceremedullum.Exe",
-        "projectPath": "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj",
-        "packagesPath": "C:\\Users\\duper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duper\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\obj\\",
+        "projectPath": "C:\\Users\\yang\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\Ceremedullum.Exe.csproj",
+        "packagesPath": "C:\\Users\\yang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yang\\Dropbox\\Senior Project\\Ceremedullum\\Ceremedullum.Exe\\Ceremedullum.Exe\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\duper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -41,27 +43,27 @@
           "dependencies": {
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[5.0.1, )"
             },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
-              "version": "[6.2.9, )"
+              "version": "[6.2.12, )"
             },
             "Microsoft.Toolkit.Uwp.UI": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.1.1, )"
             },
             "Microsoft.Toolkit.Uwp.UI.Controls": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.1.1, )"
             },
             "Microsoft.Toolkit.Uwp.UI.Controls.DataGrid": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.1.1, )"
             }
           },
           "imports": [

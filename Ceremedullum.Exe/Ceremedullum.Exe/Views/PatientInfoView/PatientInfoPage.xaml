@@ -10,14 +10,20 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBox x:Name="PatientId" Header="Patient ID:" HorizontalAlignment="Left" Margin="40,41,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="238" FontSize="18"/>
-        <TextBox x:Name="Sex" Header="Sex:" HorizontalAlignment="Left" Margin="278,41,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="238" FontSize="18"/>
-        <TextBox x:Name="BirthYear" Header="Age:" HorizontalAlignment="Left" Margin="512,41,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="238" FontSize="18"/>
-        <controls:DataGrid Margin="40,144,266,42" x:Name="PatientRecord" AutoGenerateColumns="True">
-            <controls:DataGrid.Columns>
-                <controls:DataGridTextColumn/>
-                <controls:DataGridComboBoxColumn/>
-            </controls:DataGrid.Columns>
-        </controls:DataGrid>
+        <TextBox x:Name="PatientId" Header="Patient ID:" HorizontalAlignment="Left" Margin="40,41,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="238" FontSize="18"/>
+        <TextBox x:Name="Sex" Header="Sex:" HorizontalAlignment="Left" Margin="278,41,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="238" FontSize="18"/>
+        <TextBox x:Name="BirthYear" Header="Birth:" HorizontalAlignment="Left" Margin="512,41,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="238" FontSize="18"/>
+        <ToggleSwitch Header="Allow Edit:" OffContent="Disabled" OnContent="Enabled" IsOn="False" HorizontalAlignment="Left" Margin="800, -820,0,0" />
+        <controls:DataGrid x:Name="PtHistGrid"
+                           IsReadOnly="True"
+                           CanUserSortColumns="True"
+                           Sorting="ResultsGrid_Sorting"
+                           BorderThickness="2"
+                           BorderBrush="DarkSlateGray"
+                           AlternatingRowBackground="DarkGray"
+                           GridLinesVisibility="All"
+                           AutoGenerateColumns="True"
+                           SelectionMode="Single" Margin="40,154,36,46" DoubleTapped="PtHistGrid_DoubleTapped" />
+        <Button x:Name="SendFileBtn" Content="Send X-Ray for analysis" Margin="772,117,0,0" VerticalAlignment="Top" Click="SendFileBtn_Click" Width="182"/>
     </Grid>
 </Page>

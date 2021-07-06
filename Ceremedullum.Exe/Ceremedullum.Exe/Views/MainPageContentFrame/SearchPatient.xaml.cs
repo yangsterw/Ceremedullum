@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using Windows.ApplicationModel.Core;
 using Windows.UI.Core;
 using Windows.UI.ViewManagement;
@@ -23,6 +24,7 @@ namespace Ceremedullum.Exe.Views.MainPageContentFrame
         {
             var currentAv = ApplicationView.GetForCurrentView();
             var newAv = CoreApplication.CreateNewView();
+            var data = PatientIdInput.Text;
             await newAv.Dispatcher.RunAsync(
                 CoreDispatcherPriority.Normal,
                 async () =>
@@ -32,7 +34,7 @@ namespace Ceremedullum.Exe.Views.MainPageContentFrame
                     newAppView.Title = "Patient Data";
 
                     var frame = new Frame();
-                    frame.Navigate(typeof(PatientInfoView.PatientInfoPage), null);
+                    frame.Navigate(typeof(PatientInfoView.PatientInfoPage), data);
                     newWindow.Content = frame;
                     newWindow.Activate();
 
@@ -42,6 +44,11 @@ namespace Ceremedullum.Exe.Views.MainPageContentFrame
                         currentAv.Id,
                         ViewSizePreference.UseMinimum);
                 });
+        }
+
+        private async Task<string> getPatientRecord()
+        {
+            return PatientIdInput.Text;
         }
     }
 }

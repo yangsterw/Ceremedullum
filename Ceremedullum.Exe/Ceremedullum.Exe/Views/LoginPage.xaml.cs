@@ -42,14 +42,14 @@ namespace Ceremedullum.Exe.Views
             }
             else
             {
-                ContentDialog noWifiDialog = new ContentDialog()
+                ContentDialog invalidPassword = new ContentDialog()
                 {
                     Title = "Incorrect Password",
                     Content = "Please try again, the password is incorrect.",
                     CloseButtonText = "Ok"
                 };
 
-                await noWifiDialog.ShowAsync();
+                await invalidPassword.ShowAsync();
             }
         }
     }

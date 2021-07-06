@@ -1,0 +1,2 @@
+conda activate tf
+python api.py

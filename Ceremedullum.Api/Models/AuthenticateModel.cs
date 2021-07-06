@@ -9,5 +9,7 @@ namespace Ceremedullum.Api.Models
 
         [Required]
         public string Password { get; set; }
+
+
     }
 }
